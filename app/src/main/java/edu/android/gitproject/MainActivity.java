@@ -7,13 +7,13 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
-
+    private TextView textView, textView2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.button);
-        TextView textView = findViewById(R.id.FuckGoogle);
-        TextView textView2 = findViewById(R.id.FuckGoogle);
+        textView = findViewById(R.id.FuckGoogle);
+        textView2 = findViewById(R.id.FuckGoogle);
     }
 }
