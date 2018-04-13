@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView textView = findViewById(R.id.FuckGoogle);
+        TextView textView2 = findViewById(R.id.FuckGoogle);
     }
 }
