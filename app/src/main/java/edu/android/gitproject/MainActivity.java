@@ -6,7 +6,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button;
+    private Button button,button2;
     private TextView textView, textView2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         textView = findViewById(R.id.FuckGoogle);
         textView2 = findViewById(R.id.FuckGoogle);
+        button2 = findViewById(R.id.button);
     }
 }
