@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         textView = findViewById(R.id.FuckGoogle);
         textView2 = findViewById(R.id.FuckGoogle);
-        button2 = findViewById(R.id.button);
+
+        textView.setText("HI");
     }
 }
